@@ -6,7 +6,7 @@ A simple CV template for [typst.app](https://typst.app).
 
 ### Quick Start
 
-Create a project on [typst.app](https://typst.app), copy paste everything in https://github.com/skyzh/chicv/blob/master/cv.typ, and all done!
+Create a project on [typst.app](https://typst.app), copy paste everything in `cv.typ`, and all done!
 
 ### Customize your CV
 
@@ -19,13 +19,3 @@ Don't forget to include `#chiline()` every time you open a new section, this lin
 For basic typst syntax, check this template as a reference, it's super easy to understand and use!
 
 For advanced topics, please refer to [official reference](https://typst.app/docs/reference/) by typst.
-
-## Showcases
-
-### Sample CV
-
-![Preview](cv.png)
-
-### Chi's CV
-
-[cv.pdf](https://skyzh.github.io/files/cv.pdf)
