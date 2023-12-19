@@ -21,19 +21,8 @@
 
 = Alex Chi
 
-skyzh\@cmu.edu |
-#link("https://github.com/skyzh")[github.com/skyzh] | #link("https://skyzh.dev")[skyzh.dev]
-
-== Education
-#chiline()
-
-#link("https://typst.app/")[*#lorem(2)*] #h(1fr) 2333/23 -- 2333/23 \
-#lorem(5) #h(1fr) #lorem(2) \
-- #lorem(10)
-
-*#lorem(2)* #h(1fr) 2333/23 -- 2333/23 \
-#lorem(5) #h(1fr) #lorem(2) \
-- #lorem(10)
+earayu\@gmail.com |
+#link("https://github.com/earayu")[github.com/earayu] | #link("https://earayu.github.io")[earayu.github.io]
 
 == Work Experience
 #chiline()
@@ -64,3 +53,14 @@ skyzh\@cmu.edu |
 - #lorem(20)
 - #lorem(30)
 - #lorem(40)
+
+== Education
+#chiline()
+
+#link("https://typst.app/")[*#lorem(2)*] #h(1fr) 2333/23 -- 2333/23 \
+#lorem(5) #h(1fr) #lorem(2) \
+- #lorem(10)
+
+*#lorem(2)* #h(1fr) 2333/23 -- 2333/23 \
+#lorem(5) #h(1fr) #lorem(2) \
+- #lorem(10)
