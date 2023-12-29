@@ -25,25 +25,26 @@ earayu\@gmail.com |
 #link("https://github.com/earayu")[github.com/earayu] | #link("https://earayu.github.io/about")[earayu.github.io/about] | +86 13771911594
 
 == Summary
-Seasoned software engineer with 3.5 years of experience in developing distributed OLTP database systems and delivering efficient, scalable data-intensive applications. Expert in Database DDL, database kernels, distributed systems and transaction management, with a proven track record of significant performance improvements and community growth.
+Seasoned software engineer with a solid 3-year background in developing distributed OLTP database systems, complemented by another 3 years crafting scalable, data-intensive applications. Expert in database DDL, kernel, and distributed systems.
 
 == Work Experience
 #chiline()
 
 *ApeCloud* - Database Kernel Team #h(1fr) 2023/01 -- Current \
-1. Led the design and implementation of 'WeScale', a MySQL Database Proxy, enhancing database performance with features like connection management, read-write splitting, read-after-write consistency, load balancing, and support for Online DDL operations.
+1. Led the design and implementation of #link("https://github.com/wesql/wescale")[WeScale], an opensource MySQL Database Proxy, enhancing database performance with features like connection management, read-write splitting, #link("https://github.com/wesql/wescale/blob/main/doc/design/20230414_ReadAfterWrite.md")[read-after-write consistency], load balancing, and support for Online DDL operations.
 2. Directed the development of the project's GitHub workflow, establishing CI/CD pipelines, test procedures, coding standards, automated performance testing, and packaging processes.
 3. Managed the WeScale open-source community, regularly producing articles and insights to increase project visibility and foster a positive community environment.
 4. Mentored and guided an intern team through solution design, pair programming, and code reviews, contributing to the project's collaborative and educational culture.
+5. Engineered the deployment strategy for WeScale within Kubernetes, facilitating its delivery on the platform.
 
 *Alibaba Cloud* - PolarDB-X Database Kernel Team #h(1fr) 2020/08 -- 2023/01 \
 // position: #lorem(5) #h(1fr) #lorem(2) \
-1. Lead the design and implementation of a Distributed DDL execution engine in PolarDB-X, it allows the database system to preserve ACID properties while performing schema changes on the cluster. Other features like multi-version metadata, MPP execution, and visualization are also included.
-2. Designed and implemented a data re-sharding module in PolarDB-X, which allows a sharding table to reorganize using a new sharding schema while still accepting transactional read and write requests.
-3. Implemented the row-level TTL mechanism for PolarDB-X tables, massive expired data can be automatically deleted instantly without doing harm to the current database performance.
-4. Studied and implemented a distributed metadata deadlock detector, without which the whole database system could hang and crash when a distributed metadata deadlock happens.
-5. Implemented a schema lease and transaction fence mechanism, that allows schema evolution progress even during a network partition or node failure.
-6. Designed and implemented some kernel components for PolarDB-X, such as persistent read-write lock、leader election module、scheduled jobs.
+1. Lead the design and implementation of a #link("https://github.com/polardb/polardbx-sql/blob/main/polardbx-executor/src/main/java/com/alibaba/polardbx/executor/ddl/newengine/DdlEngineDagExecutor.java")[Distributed DDL execution] engine in #link("https://github.com/polardb/polardbx-sql")[PolarDB-X], it allows the database system to preserve ACID properties while performing schema changes on the cluster. Other features like multi-version metadata, MPP execution, and visualization are also included.
+2. Designed and implemented a #link("https://www.alibabacloud.com/help/en/polardb/polardb-for-xscale/change-the-type-and-partitioning-rule-of-a-table")[table re-sharding algorithm and associated DDL] within PolarDB-X, facilitating the dynamic reorganization of sharded tables based on a new schema without interrupting ongoing transactional read and write operations.
+3. Led the design and implementation of the #link("https://www.alibabacloud.com/help/en/polardb/polardb-for-xscale/create-a-ttl-table")[TTL table] for PolarDB-X, enabling massive expired data to be automatically deleted instantly without impacting the current database performance. Reduced storage costs to as low as 5% of the original.
+4. Invented and executed a #link("https://github.com/polardb/polardbx-sql/blob/main/polardbx-transaction/src/main/java/com/alibaba/polardbx/transaction/async/MdlDeadlockDetectionTask.java")[distributed metadata deadlock detection algorithm], a critical safeguard that prevents system-wide hangs and crashes by resolving potential distributed metadata deadlocks.
+// 5. Implemented a schema lease and transaction fence mechanism, that allows schema evolution progress even during a network partition or node failure.
+5. Designed and implemented some kernel components for PolarDB-X, such as #link("https://github.com/polardb/polardbx-sql/blob/main/polardbx-gms/src/main/java/com/alibaba/polardbx/gms/metadb/misc/PersistentReadWriteLock.java")[persistent read-write lock]、#link("https://github.com/polardb/polardbx-sql/blob/547cd18293dc2718d82f2711277a49c882d3a3f2/polardbx-gms/src/main/java/com/alibaba/polardbx/gms/lease/impl/LeaseManagerImpl.java#L27")[leader election module]、#link("https://github.com/polardb/polardbx-sql/blob/547cd18293dc2718d82f2711277a49c882d3a3f2/polardbx-executor/src/main/java/com/alibaba/polardbx/executor/scheduler/ScheduledJobsManager.java#L735")[scheduled job manager].
 
 *Alibaba Group* - Web Backend Development #h(1fr) 2018/02 -- 2020/07 \
 DingTalk Team
@@ -52,7 +53,7 @@ DingTalk Team
 
 Recruiting Team
 1. Maintained several websites(like job.alibaba.com) in Alibaba recruiting team. 
-2. Designed and implemented a user behavior tacking system based on a message queue, a LSM-Tree based key-value database, and a column store relational database. The system supports high throughput write operations and high-performance analytic SQL query operations.
+2. Designed and implemented a user behavior tacking system based on a message queue, and a column store relational database. The system supports high throughput write operations and high-performance analytic SQL query operations.
 
 *ZhongAn Online P&C Insurance Co. Ltd.* - Web Backend Development #h(1fr) 2017/07 -- 2018/02 \
 1. Designed MySQL database models and developed web applications using Java and SpringMVC.
