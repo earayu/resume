@@ -22,32 +22,37 @@
 = Guanghui Yu | Bryce Yu
 
 earayu\@gmail.com |
-#link("https://github.com/earayu")[github.com/earayu] | #link("https://earayu.github.io")[earayu.github.io] | +86 13771911594
+#link("https://github.com/earayu")[github.com/earayu] | #link("https://earayu.github.io/about")[earayu.github.io/about] | +86 13771911594
 
 == Summary
-2+ years of experience in developing distributed OLTP database systems. 3 years of experience in delivering efficient, scalable, and resilient WEB services. Familiar with and share passions for distributed systems, database kernel, query processing, and database transactions.
+Seasoned software engineer with 3.5 years of experience in developing distributed OLTP database systems and delivering efficient, scalable data-intensive applications. Expert in Database DDL, database kernels, distributed systems and transaction management, with a proven track record of significant performance improvements and community growth.
 
 == Work Experience
 #chiline()
 
+*ApeCloud* - Database Kernel Team #h(1fr) 2023/01 -- Current \
+1. Led the design and implementation of 'WeScale', a MySQL Database Proxy, enhancing database performance with features like connection management, read-write splitting, read-after-write consistency, load balancing, and support for Online DDL operations.
+2. Directed the development of the project's GitHub workflow, establishing CI/CD pipelines, test procedures, coding standards, automated performance testing, and packaging processes.
+3. Managed the WeScale open-source community, regularly producing articles and insights to increase project visibility and foster a positive community environment.
+4. Mentored and guided an intern team through solution design, pair programming, and code reviews, contributing to the project's collaborative and educational culture.
+
 *Alibaba Cloud* - PolarDB-X Database Kernel Team #h(1fr) 2020/08 -- 2023/01 \
 // position: #lorem(5) #h(1fr) #lorem(2) \
-1. Lead the design and implementation of a DDL execution engine in PolarDB-X, it allows the database system to preserve ACID properties while performing schema changes on the cluster. Other features like multi-version metadata, MPP execution, and visualization are also included.
-2. Designed and implemented a data repartition module in PolarDB-X, which allows a partition table to reorganize using a new partition schema while still accepting transactional read and write requests.
-3. Implemented the row-level TTL mechanism for PolarDB-X tables, massive expired data can be automatically deleted very fast without doing harm to the current database performance.
-4. Implemented a schema lease and transaction fence mechanism, that allows schema evolution progress even during a network partition or node failure.
-5. Studied and implemented a distributed metadata deadlock detector, without which the whole database system could hang and crash when a distributed metadata deadlock happens.
+1. Lead the design and implementation of a Distributed DDL execution engine in PolarDB-X, it allows the database system to preserve ACID properties while performing schema changes on the cluster. Other features like multi-version metadata, MPP execution, and visualization are also included.
+2. Designed and implemented a data re-sharding module in PolarDB-X, which allows a sharding table to reorganize using a new sharding schema while still accepting transactional read and write requests.
+3. Implemented the row-level TTL mechanism for PolarDB-X tables, massive expired data can be automatically deleted instantly without doing harm to the current database performance.
+4. Studied and implemented a distributed metadata deadlock detector, without which the whole database system could hang and crash when a distributed metadata deadlock happens.
+5. Implemented a schema lease and transaction fence mechanism, that allows schema evolution progress even during a network partition or node failure.
 6. Designed and implemented some kernel components for PolarDB-X, such as persistent read-write lock、leader election module、scheduled jobs.
 
 *Alibaba Group* - Web Backend Development #h(1fr) 2018/02 -- 2020/07 \
 DingTalk Team
-1. Participated in and developed an API Gateway for DingTalk that provides functionalities like access management, protocol translation, resource isolation, and so on.
-2. Used non-blocking IO and request-grouping technique to maximize the throughput of the API Gateway.
-3. Implemented a flow control module based on Redis to protect the backend services, the flow control module is advisory instead of mandatory in order to ensure low latency and high availability of the API Gateway.
+1. Participated in and developed an API Gateway for DingTalk that provides functionalities like API management, protocol translation, resource isolation, and so on.
+2. Devised a flow control module based on Redis to protect the backend services, enhancing the API Gateway's availability and response time.
 
 Recruiting Team
 1. Maintained several websites(like job.alibaba.com) in Alibaba recruiting team. 
-2. Designed and implemented a user behavior log system based on a message queue, LevelDB, and a column store relational database. The system supports high throughput write operations and high-performance analytic SQL query operations.
+2. Designed and implemented a user behavior tacking system based on a message queue, a LSM-Tree based key-value database, and a column store relational database. The system supports high throughput write operations and high-performance analytic SQL query operations.
 
 *ZhongAn Online P&C Insurance Co. Ltd.* - Web Backend Development #h(1fr) 2017/07 -- 2018/02 \
 1. Designed MySQL database models and developed web applications using Java and SpringMVC.
