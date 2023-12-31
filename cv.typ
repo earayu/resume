@@ -31,11 +31,11 @@ Seasoned software engineer with a solid 3-year background in developing distribu
 #chiline()
 
 *ApeCloud* - Database Kernel Team #h(1fr) 2023/01 -- Current \
-1. Led the design and implementation of #link("https://github.com/wesql/wescale")[WeScale], an opensource MySQL Database Proxy, enhancing database performance with features like connection management, read-write splitting, #link("https://github.com/wesql/wescale/blob/main/doc/design/20230414_ReadAfterWrite.md")[read-after-write consistency], load balancing, and support for Online DDL operations.
+1. Led the design and implementation of #link("https://github.com/wesql/wescale")[WeScale], an opensource MySQL Database Proxy, enhancing database performance with features like connection management, #link("https://github.com/wesql/wescale/blob/main/doc%2Fblogs%2FDive%20into%20Read-Write-Splitting%20of%20WeScale.md")[read-write splitting], #link("https://github.com/wesql/wescale/blob/main/doc/design/20230414_ReadAfterWrite.md")[read-after-write consistency], load balancing, and support for Online DDL operations.
 2. Directed the development of the project's GitHub workflow, establishing CI/CD pipelines, test procedures, coding standards, automated performance testing, and packaging processes.
 3. Managed the WeScale open-source community, regularly producing articles and insights to increase project visibility and foster a positive community environment.
 4. Mentored and guided an intern team through solution design, pair programming, and code reviews, contributing to the project's collaborative and educational culture.
-5. Engineered the deployment strategy for WeScale within Kubernetes, facilitating its delivery on the platform.
+5. Engineered the deployment strategy for #link("https://github.com/apecloud/kubeblocks-addons/blob/main/addons/apecloud-mysql/templates/clusterdefinition.yaml")[WeScale within Kubernetes], facilitating its delivery on the platform.
 
 *Alibaba Cloud* - PolarDB-X Database Kernel Team #h(1fr) 2020/08 -- 2023/01 \
 // position: #lorem(5) #h(1fr) #lorem(2) \
