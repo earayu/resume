@@ -25,7 +25,8 @@ earayu\@gmail.com |
 #link("https://github.com/earayu")[github.com/earayu] | #link("https://earayu.github.io/about")[earayu.github.io/about] | +86 13771911594 | Location: Suzhou, China
 
 == Summary
-Seasoned software engineer with a solid 4-year background in developing distributed OLTP database systems, complemented by another 3 years crafting scalable, data-intensive applications. Expert in database and distributed systems.
+Seasoned Software engineer with 4 years of experience in distributed OLTP database systems and 3 years in scalable data-intensive applications. Expert in database and distributed systems.
+
 
 == Work Experience
 #chiline()
@@ -51,9 +52,7 @@ Seasoned software engineer with a solid 4-year background in developing distribu
 
 4. Invented and executed a #link("https://github.com/polardb/polardbx-sql/blob/main/polardbx-transaction/src/main/java/com/alibaba/polardbx/transaction/async/MdlDeadlockDetectionTask.java")[distributed metadata deadlock detection algorithm], a critical safeguard that prevents system-wide hangs and crashes by resolving potential distributed metadata deadlocks.
 
-// 5. Implemented a schema lease and transaction fence mechanism, that allows schema evolution progress even during a network partition or node failure.
-
-5. Designed and implemented some kernel components for PolarDB-X, such as #link("https://github.com/polardb/polardbx-sql/blob/main/polardbx-gms/src/main/java/com/alibaba/polardbx/gms/metadb/misc/PersistentReadWriteLock.java")[persistent read-write lock]、#link("https://github.com/polardb/polardbx-sql/blob/547cd18293dc2718d82f2711277a49c882d3a3f2/polardbx-gms/src/main/java/com/alibaba/polardbx/gms/lease/impl/LeaseManagerImpl.java#L27")[leader election module]、#link("https://github.com/polardb/polardbx-sql/blob/547cd18293dc2718d82f2711277a49c882d3a3f2/polardbx-executor/src/main/java/com/alibaba/polardbx/executor/scheduler/ScheduledJobsManager.java#L735")[scheduled job manager].
+5. Designed and implemented kernel components including #link("https://github.com/polardb/polardbx-sql/blob/main/polardbx-gms/src/main/java/com/alibaba/polardbx/gms/metadb/misc/PersistentReadWriteLock.java")[persistent read-write lock], #link("https://github.com/polardb/polardbx-sql/blob/547cd18293dc2718d82f2711277a49c882d3a3f2/polardbx-gms/src/main/java/com/alibaba/polardbx/gms/lease/impl/LeaseManagerImpl.java#L27")[leader election], and #link("https://github.com/polardb/polardbx-sql/blob/547cd18293dc2718d82f2711277a49c882d3a3f2/polardbx-executor/src/main/java/com/alibaba/polardbx/executor/scheduler/ScheduledJobsManager.java#L735")[scheduled jobs].
 
 
 
@@ -65,8 +64,8 @@ Seasoned software engineer with a solid 4-year background in developing distribu
 3. Designed and implemented a user behavior tacking system based on a message queue, and a column store relational database. The system supports high throughput write operations and high-performance analytic SQL query operations.
 
 *ZhongAn Online P&C Insurance Co. Ltd.* - Web Backend Development #h(1fr) 2017/07 -- 2018/02 \
-1. Designed MySQL database models and developed web applications using Java and SpringMVC.
-2. Designed a set of service-provider-interface that speed up the system integration with other car insurance companies. Reduced 30% of the development work.
+1. Designed MySQL database models and web applications using Java and SpringMVC.
+2. Designed service-provider-interface for car insurance system integration, reducing 30% development work.
 
 == Education
 #chiline()
