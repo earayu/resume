@@ -39,7 +39,7 @@ earayu\@gmail.com |
 
 2. 建立了完整的项目基础设施体系,包括设计和实现CI/CD流水线、自动化测试框架、代码规范和性能测试平台。通过技术方案评审、结对编程和代码审查等方式,培养团队工程师的技术能力,提升整体研发效率。
 
-3. 负责#link("https://wesql.io/")[WeSQL]和#link("https://kubeblocks.io/")[KubeBlocks]两个开源社区的运营工作。通过系统化的技术内容创作、线上课程和#link("https://labs.iximiuz.com/tutorials?category=kubernetes")[线上实验室]等方式,显著提升了社区活跃度。组织开源训练营,帮助社区成员掌握数据库内核开发和Kubernetes技术。
+3. 负责#link("https://wesql.io/")[WeSQL]和#link("https://kubeblocks.io/")[KubeBlocks]两个开源社区的运营工作。通过系统化的技术内容创作、线上课程和#link("https://labs.iximiuz.com/skill-paths/kubeblocks-skill-path-1f1a0a29")[线上实验室]等方式,显著提升了社区活跃度。组织开源训练营,帮助社区成员掌握数据库内核开发和Kubernetes技术。
 
 4. 在数据库系统领域申请了4项发明专利,涵盖分布式多副本读写一致性、MySQL代理身份认证机制、数据库Schema版本管理以及基于WebAssembly的动态代理扩展等创新技术。
 

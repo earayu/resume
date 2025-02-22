@@ -36,7 +36,7 @@ Seasoned Software engineer with 4 years of experience in distributed OLTP databa
 
 2. Established project infrastructure and mentored team members by implementing CI/CD pipelines, test procedures, coding standards, and automated performance testing, while conducting solution design sessions, pair programming, and code reviews to foster team growth.
 
-3. Led open-source community operations for #link("https://wesql.io/")[WeSQL] and #link("https://kubeblocks.io/")[KubeBlocks], driving community growth through technical content creation, online tutorials development, and #link("https://labs.iximiuz.com/tutorials?category=kubernetes")[hands-on labs] implementation. Organized open-source training camps to educate and engage community members in database development and Kubernetes technologies.
+3. Led open-source community operations for #link("https://wesql.io/")[WeSQL] and #link("https://kubeblocks.io/")[KubeBlocks], driving community growth through technical content creation, online tutorials development, and #link("https://labs.iximiuz.com/skill-paths/kubeblocks-skill-path-1f1a0a29")[hands-on labs] implementation. Organized open-source training camps to educate and engage community members in database development and Kubernetes technologies.
 
 4. Filed 4 patents in database systems domain, covering innovations in distributed multi-replica read-write consistency, MySQL proxy authentication mechanisms, database schema version management, and dynamic proxy extension via WebAssembly plugins.
 
