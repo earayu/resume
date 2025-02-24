@@ -1,4 +1,11 @@
-#show heading: set text(font: "Linux Biolinum")
+//#show heading: set text(font: "Linux Biolinum")
+
+#set text(
+  font: ("DejaVu Serif"),
+  size: 10.94pt,
+)
+
+
 
 #show link: underline
 
@@ -25,7 +32,7 @@
 = 郁光辉
 
 earayu\@gmail.com |
-#link("https://github.com/earayu")[github.com/earayu] | #link("https://earayu.github.io/about")[earayu.github.io/about] | +86 13771911594 | 江苏 苏州, 中国
+#link("https://github.com/earayu")[github.com/earayu] | #link("https://earayu.github.io/about")[earayu.github.io/about] | 13771911594 | 江苏 苏州, 中国
 
 == Summary
 4年分布式关系型OLTP数据库内核开发经验，3年Web后端应用开发经验。熟悉分布式系统、关系型数据库内核、数据库DDL、数据库事务、应用系统架构设计。
