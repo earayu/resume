@@ -35,20 +35,19 @@ earayu\@gmail.com |
 #link("https://github.com/earayu")[github.com/earayu] | #link("https://earayu.github.io/about")[earayu.github.io/about] | 13771911594 | 江苏 苏州, 中国
 
 == Summary
-4年分布式关系型OLTP数据库内核开发经验，4年Web后端应用开发经验。熟悉分布式系统、关系型数据库内核、数据库DDL、数据库事务、应用系统架构设计。
-
+8年全栈技术经验（4年分布式数据库内核+4年云原生应用架构）。主导阿里云分布式数据库DDL引擎重写并商业化落地，持续探索Database DevOps、AIGC与数据库系统融合方向。
 
 == Work Experience
 #chiline()
 
-*杭州云猿生数据有限公司* - 数据库内核开发工程师 (远程) #h(1fr) 2023/01 -- 至今 \
-1. 负责#link("https://github.com/wesql/wescale")[WeScale]项目的设计和实现，这是一个开源的MySQL数据库proxy，具备连接池管理、#link("https://github.com/wesql/wescale/blob/main/doc%2Fblogs%2FDive%20into%20Read-Write-Splitting%20of%20WeScale.md")[读写分离]、#link("https://github.com/wesql/wescale/blob/main/doc/design/20230414_ReadAfterWrite.md")[写后读一致性]等核心功能,显著提升了数据库的性能和可用性。同时在WeScale中实现了#link("https://wesql.io/docs/features/Wasm-Plugin")[WebAssembly Plugin]和#link("https://github.com/wesql/mysql-branch-action")[Database Branching]等创新特性,大幅简化了开发和测试流程。
+*杭州云猿生数据有限公司* - 创始工程师 #h(1fr) 2023/01 -- 至今 \
+1. 主导云原生数据库中间件#link("https://github.com/wesql/wescale")[WeScale]的设计和实现，实现了连接池管理、#link("https://github.com/wesql/wescale/blob/main/doc%2Fblogs%2FDive%20into%20Read-Write-Splitting%20of%20WeScale.md")[读写分离]、#link("https://github.com/wesql/wescale/blob/main/doc/design/20230414_ReadAfterWrite.md")[写后读一致性]等核心功能,显著提升了数据库的性能和可用性。同时在WeScale中实现了能够对标PlanetScale的#link("https://github.com/wesql/mysql-branch-action")[Database Branching]功能,大幅简化了应用开发和测试流程。
 
-2. 带领团队建立了完整的项目基础设施体系,包括设计和实现CI/CD流水线、自动化测试框架、代码规范和性能测试平台。通过技术方案评审、结对编程和代码审查等方式,培养团队工程师的技术能力,提升整体研发效率。
+2. 负责#link("https://kubeblocks.io/")[KubeBlocks]和#link("https://wesql.io/")[WeSQL]两个开源社区的运营。通过系统化的技术内容创作、SEO和#link("https://labs.iximiuz.com/skill-paths/kubeblocks-skill-path-1f1a0a29")[线上实验室]等方式，带动用户增长和客户挖掘。组织开源训练营,帮助社区成员掌握数据库内核开发和Kubernetes技术。
 
-3. 负责#link("https://wesql.io/")[WeSQL]和#link("https://kubeblocks.io/")[KubeBlocks]两个开源社区的运营工作。通过系统化的技术内容创作、线上课程和#link("https://labs.iximiuz.com/skill-paths/kubeblocks-skill-path-1f1a0a29")[线上实验室]等方式,显著提升了社区活跃度。组织开源训练营,帮助社区成员掌握数据库内核开发和Kubernetes技术。
+3. 带领团队搭建完整项目基础设施，包括CI/CD流水线、自动化测试框架、自动化性能测试。通过技术评审和结对编程，培养5名初级工程师成长为骨干。
 
-4. 在数据库系统领域申请了4项发明专利,涵盖分布式多副本读写一致性、MySQL代理身份认证机制、数据库Schema版本管理以及基于WebAssembly的动态代理扩展等创新技术。
+4. 在数据库系统领域申请了4项发明专利、1项软著,涵盖分布式多副本读写一致性、MySQL代理身份认证机制、数据库Schema版本管理以及基于WebAssembly的动态代理扩展等创新技术。
 
 
 
