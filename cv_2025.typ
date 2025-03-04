@@ -25,7 +25,7 @@ earayu\@gmail.com |
 #link("https://github.com/earayu")[github.com/earayu] | #link("https://earayu.github.io/about")[earayu.github.io/about] | +86 13771911594 | Location: Suzhou, China
 
 == Summary
-Seasoned Software engineer with 4 years of experience in distributed OLTP database systems and 3 years in scalable data-intensive applications. Expert in database and distributed systems.
+Seasoned Software engineer with 4 years of experience in distributed OLTP database systems and 4 years in scalable data-intensive applications. Expert in database and distributed systems.
 
 
 == Work Experience
@@ -34,7 +34,7 @@ Seasoned Software engineer with 4 years of experience in distributed OLTP databa
 *ApeCloud* - Database Kernel Team (remote) #h(1fr) 2023/01 -- Current \
 1. Led the design and implementation of #link("https://github.com/wesql/wescale")[WeScale], an opensource MySQL Database Proxy, providing high availability and database management capabilities including connection pooling, #link("https://github.com/wesql/wescale/blob/main/doc%2Fblogs%2FDive%20into%20Read-Write-Splitting%20of%20WeScale.md")[read-write splitting], #link("https://github.com/wesql/wescale/blob/main/doc/design/20230414_ReadAfterWrite.md")[read-after-write consistency], #link("https://wesql.io/docs/features/Wasm-Plugin")[wasm plugin] and #link("https://github.com/wesql/mysql-branch-action")[Database Branching].
 
-2. Established project infrastructure and mentored team members by implementing CI/CD pipelines, test procedures, coding standards, and automated performance testing, while conducting solution design sessions, pair programming, and code reviews to foster team growth.
+2. Led a 5 member team and established project infrastructure and mentored team members by implementing CI/CD pipelines, test procedures, coding standards, and automated performance testing, while conducting solution design sessions, pair programming, and code reviews to foster team growth.
 
 3. Led open-source community operations for #link("https://wesql.io/")[WeSQL] and #link("https://kubeblocks.io/")[KubeBlocks], driving community growth through technical content creation, online tutorials development, and #link("https://labs.iximiuz.com/skill-paths/kubeblocks-skill-path-1f1a0a29")[hands-on labs] implementation. Organized open-source training camps to educate and engage community members in database development and Kubernetes technologies.
 
